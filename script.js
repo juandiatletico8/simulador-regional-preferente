@@ -311,10 +311,10 @@ const escudos = {
 { jornada: 28, local: "Victoria", visitante: "Zamora B", gLocal: null, gVis: null },
 { jornada: 28, local: "Benavente", visitante: "Sariegos", gLocal: null, gVis: null },
 { jornada: 28, local: "Béjar Industrial", visitante: "Ponferradina B", gLocal: null, gVis: null },
-{ jornada: 28, local: "Laguna", visitante: "Salamanca UDS B", gLocal: null, gVis: null },
+{ jornada: 28, local: "Laguna", visitante: "Salamanca UDS B", gLocal: 1, gVis: 1 },
 { jornada: 28, local: "Helmántico", visitante: "La Cistérniga", gLocal: null, gVis: null },
 { jornada: 28, local: "Cubillos", visitante: "Ciudad Rodrigo", gLocal: null, gVis: null },
-{ jornada: 28, local: "Moraleja", visitante: "La Bañeza", gLocal: null, gVis: null },
+{ jornada: 28, local: "Moraleja", visitante: "La Bañeza", gLocal: 0, gVis: 3 },
 { jornada: 28, local: "Noname", visitante: "Betis", gLocal: null, gVis: null },
 
 // Jornada 29
