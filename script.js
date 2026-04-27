@@ -308,14 +308,14 @@ const escudos = {
 { jornada: 27, local: "Noname", visitante: "Moraleja", gLocal: 1, gVis: 3 },
 
 // Jornada 28
-{ jornada: 28, local: "Victoria", visitante: "Zamora B", gLocal: null, gVis: null },
-{ jornada: 28, local: "Benavente", visitante: "Sariegos", gLocal: null, gVis: null },
-{ jornada: 28, local: "Béjar Industrial", visitante: "Ponferradina B", gLocal: null, gVis: null },
+{ jornada: 28, local: "Victoria", visitante: "Zamora B", gLocal: 2, gVis: 0 },
+{ jornada: 28, local: "Benavente", visitante: "Sariegos", gLocal: 1, gVis: 0 },
+{ jornada: 28, local: "Béjar Industrial", visitante: "Ponferradina B", gLocal: 2, gVis: 1 },
 { jornada: 28, local: "Laguna", visitante: "Salamanca UDS B", gLocal: 1, gVis: 1 },
-{ jornada: 28, local: "Helmántico", visitante: "La Cistérniga", gLocal: null, gVis: null },
-{ jornada: 28, local: "Cubillos", visitante: "Ciudad Rodrigo", gLocal: null, gVis: null },
+{ jornada: 28, local: "Helmántico", visitante: "La Cistérniga", gLocal: 1, gVis: 5 },
+{ jornada: 28, local: "Cubillos", visitante: "Ciudad Rodrigo", gLocal: 2, gVis: 1 },
 { jornada: 28, local: "Moraleja", visitante: "La Bañeza", gLocal: 0, gVis: 3 },
-{ jornada: 28, local: "Noname", visitante: "Betis", gLocal: null, gVis: null },
+{ jornada: 28, local: "Noname", visitante: "Betis", gLocal: 1, gVis: 1 },
 
 // Jornada 29
 { jornada: 29, local: "Victoria", visitante: "Betis", gLocal: null, gVis: null },
