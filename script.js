@@ -318,14 +318,14 @@ const escudos = {
 { jornada: 28, local: "Noname", visitante: "Betis", gLocal: 1, gVis: 1 },
 
 // Jornada 29
-{ jornada: 29, local: "Victoria", visitante: "Betis", gLocal: null, gVis: null },
-{ jornada: 29, local: "Zamora B", visitante: "Benavente", gLocal: null, gVis: null },
-{ jornada: 29, local: "Sariegos", visitante: "Béjar Industrial", gLocal: null, gVis: null },
-{ jornada: 29, local: "Ponferradina B", visitante: "Laguna", gLocal: null, gVis: null },
-{ jornada: 29, local: "Salamanca UDS B", visitante: "Helmántico", gLocal: null, gVis: null },
-{ jornada: 29, local: "La Cistérniga", visitante: "Cubillos", gLocal: null, gVis: null },
-{ jornada: 29, local: "Ciudad Rodrigo", visitante: "Moraleja", gLocal: null, gVis: null },
-{ jornada: 29, local: "La Bañeza", visitante: "Noname", gLocal: null, gVis: null },
+{ jornada: 29, local: "Victoria", visitante: "Betis", gLocal: 2, gVis: 0 },
+{ jornada: 29, local: "Zamora B", visitante: "Benavente", gLocal: 3, gVis: 1 },
+{ jornada: 29, local: "Sariegos", visitante: "Béjar Industrial", gLocal: 3, gVis: 2 },
+{ jornada: 29, local: "Ponferradina B", visitante: "Laguna", gLocal: 0, gVis: 0 },
+{ jornada: 29, local: "Salamanca UDS B", visitante: "Helmántico", gLocal: 3, gVis: 0 },
+{ jornada: 29, local: "La Cistérniga", visitante: "Cubillos", gLocal: 1, gVis: 2 },
+{ jornada: 29, local: "Ciudad Rodrigo", visitante: "Moraleja", gLocal: 5, gVis: 0 },
+{ jornada: 29, local: "La Bañeza", visitante: "Noname", gLocal: 4, gVis: 0 },
 
 // Jornada 30
 { jornada: 30, local: "Benavente", visitante: "Victoria", gLocal: null, gVis: null },
@@ -774,7 +774,7 @@ function renderizarResumenFinal(clasificacion) {
 
   const ascensoDirecto = clasificacion[0];
   const playoff = clasificacion.slice(1, 3);
-  const arrastre = clasificacion.slice(10, 13);
+  const arrastre = clasificacion.slice(11, 13);
   const descenso = clasificacion.slice(13, 16);
 
   function renderEquipoResumen(equipo) {
@@ -878,7 +878,7 @@ function calcularClasificacion() {
   tr.classList.add("pos-ascenso");
 } else if (i >= 1 && i <= 2) {
   tr.classList.add("pos-playoff");
-} else if (i >= 10 && i <= 12) {
+} else if (i >= 11 && i <= 12) {
   tr.classList.add("pos-arrastre");
 } else if (i >= 13 && i <= 15) {
   tr.classList.add("pos-descenso");
